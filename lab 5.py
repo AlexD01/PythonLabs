@@ -438,7 +438,7 @@ class Window1_3(Window0):
 
     def add(self):
         
-        temp=Schoolchild(name = self.name.get(),age = self.age.get(),place_reg = self.placeofregistratione.get(),place_work=self.place_work.get(),speciality=self.speciality.get())
+         temp=Schoolchild(name = self.name.get(),age = self.age.get(),place_reg = self.placeofregistratione.get(),place_study=self.place_work.get(),cl=self.speciality.get())
         
         r.add_in_end(temp)
         
