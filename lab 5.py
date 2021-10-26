@@ -201,7 +201,7 @@ class Window0:
         self.btn1.pack(fill=BOTH)
         self.btn1_1=Button(frame,text="add a Worker", command=self.openWorker)
         self.btn1_1.pack(fill=BOTH)
-        self.btn1_2=Button(frame,text="add a Schoolchild", command=self.openWorker)
+        self.btn1_2=Button(frame,text="add a Schoolchild", command=self.openSchool)
         self.btn1_2.pack(fill=BOTH)
         self.btn1_3=Button(frame,text="Show", command=self.show)
         self.btn1_3.pack(fill=BOTH)
